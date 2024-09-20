@@ -32,3 +32,12 @@ jobs:
 
       - name: Run Jest
         run: npm test
+
+      - name: VER ARQUIVOS
+        run: ll
+
+      # - name: Archive code coverage results
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: code-coverage-report
+      #     path: coverage/
